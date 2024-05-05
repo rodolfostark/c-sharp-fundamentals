@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wellcome", "Wellcome\Wellcome.csproj", "{B83166F4-8723-4B8F-A248-52AB0DF127F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wellcome", "Wellcome\Wellcome.csproj", "{B83166F4-8723-4B8F-A248-52AB0DF127F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FullName", "FullName\FullName.csproj", "{AC6B3A8D-2654-46C5-A19B-461C4C56019D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FullName", "FullName\FullName.csproj", "{AC6B3A8D-2654-46C5-A19B-461C4C56019D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathBasics", "MathBasics\MathBasics.csproj", "{AE8E088A-5AE0-4EE7-8EFB-70174FF1C15A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathBasics", "MathBasics\MathBasics.csproj", "{AE8E088A-5AE0-4EE7-8EFB-70174FF1C15A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordCounter", "WordCounter\WordCounter.csproj", "{75EBD28C-FCAC-482D-8EEA-00E339152102}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordCounter", "WordCounter\WordCounter.csproj", "{75EBD28C-FCAC-482D-8EEA-00E339152102}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidateCarPlate", "ValidateCarPlate\ValidateCarPlate.csproj", "{8DE68EEE-B195-4647-B434-818E8DF77459}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidateCarPlate", "ValidateCarPlate\ValidateCarPlate.csproj", "{8DE68EEE-B195-4647-B434-818E8DF77459}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateFormat", "DataFormat\DateFormat.csproj", "{E4D86BDE-E637-41F2-8B33-514CD6012C4D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{8DE68EEE-B195-4647-B434-818E8DF77459}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DE68EEE-B195-4647-B434-818E8DF77459}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DE68EEE-B195-4647-B434-818E8DF77459}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4D86BDE-E637-41F2-8B33-514CD6012C4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4D86BDE-E637-41F2-8B33-514CD6012C4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4D86BDE-E637-41F2-8B33-514CD6012C4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4D86BDE-E637-41F2-8B33-514CD6012C4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
