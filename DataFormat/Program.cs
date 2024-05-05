@@ -1,4 +1,6 @@
-﻿namespace DateFormat;
+﻿using System.Globalization;
+
+namespace DateFormat;
 
 public enum DataFormats
 {
@@ -22,16 +24,16 @@ class DateFormat
         switch (dateFormat) 
         {
             case (int)DataFormats.Completo:
-                Console.WriteLine(DateTime.Now.ToString());
+                Console.WriteLine(DateTime.Now.ToString("U", new CultureInfo("pt-BR")));
                 break;
             case (int)DataFormats.ApenasData:
-                Console.WriteLine(DateTime.Now.Date.ToString());
+                Console.WriteLine(DateTime.Now.Date.ToString("d", new CultureInfo("pt-BR")));
                 break;
             case (int)DataFormats.ApenasHora:
-                Console.WriteLine(DateTime.Now.Hour.ToString());
+                Console.WriteLine(DateTime.Now.ToString("T", new CultureInfo("pt-BR")));
                 break;
             case (int)DataFormats.PorExtenso:
-                Console.WriteLine(DateTime.Now.ToShortDateString());
+                Console.WriteLine(DateTime.Now.Date.ToString("d/MMMM/yyyy", new CultureInfo("pt-BR")));
                 break;
             default:
                 Console.WriteLine("Formato de data informado é inválido");
